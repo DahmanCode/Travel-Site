@@ -169,7 +169,7 @@ footer li:hover a::after {
 }
 
 footer h1 {
-  color: #fff;
+  color: #aec3ff;
   font-size: 24px;
   font-family: 'Merriweather', serif;
 }
@@ -184,17 +184,20 @@ footer {
 
 footer > div {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  border: 1px solid #000;
 }
 
-div .lang {
+.lang {
   display: flex;
   flex-wrap: wrap;
   width: 260px;
   margin-left: -8px;
 }
 
-div .lang a {
+.lang a {
   border-radius: 4px;
   padding: 8px;
   margin-right: 4px;
@@ -317,7 +320,7 @@ div .lang a {
     z-index: -1;
   }
 
-  footer > div {
+  /* footer > div {
     flex-direction: column;
-  }
+  } */
 }
